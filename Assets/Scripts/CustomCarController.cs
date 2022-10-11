@@ -105,9 +105,6 @@ public class CustomCarController : MonoBehaviour
 
     private void DrunkSteering()
     {
-        //every few seconds number changes between -1 and 1
-        //the higher the absolute value the less time it remains
-        //on (bigger/all?) numbers once player corrects the driving it it resets to 0
 
         if (!(_horizontalInput != 0))
             return;
