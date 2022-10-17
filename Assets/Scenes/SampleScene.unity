@@ -165,8 +165,8 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.32
   m_SuspensionSpring:
-    spring: 35000
-    damper: 4500
+    spring: 70000
+    damper: 9000
     targetPosition: 0.5
   m_SuspensionDistance: 0.3
   m_ForceAppPointDistance: 0
@@ -325,8 +325,8 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.32
   m_SuspensionSpring:
-    spring: 35000
-    damper: 4500
+    spring: 70000
+    damper: 9000
     targetPosition: 0.5
   m_SuspensionDistance: 0.3
   m_ForceAppPointDistance: 0
@@ -387,8 +387,8 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.32
   m_SuspensionSpring:
-    spring: 35000
-    damper: 4500
+    spring: 70000
+    damper: 9000
     targetPosition: 0.5
   m_SuspensionDistance: 0.3
   m_ForceAppPointDistance: 0
@@ -709,7 +709,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.32275254, y: 0.4963998, z: -0.20561506, w: 0.77919227}
+  m_LocalRotation: {x: 0.13052616, y: -0, z: -0, w: 0.9914449}
   m_LocalPosition: {x: 0, y: 0.16, z: 0.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -732,6 +732,7 @@ MonoBehaviour:
   objectViewRot: {x: 0.32275254, y: 0.49639976, z: -0.20561506, w: 0.7791922}
   roadViewRot: {x: 0.13052616, y: 0, z: 0, w: 0.9914449}
   mapViewRot: {x: -0.32618788, y: 0.28257418, z: -0.10285537, w: -0.8961998}
+  currentView: 0
 --- !u!1 &985330562
 GameObject:
   m_ObjectHideFlags: 0
@@ -844,8 +845,8 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.32
   m_SuspensionSpring:
-    spring: 35000
-    damper: 4500
+    spring: 70000
+    damper: 9000
     targetPosition: 0.5
   m_SuspensionDistance: 0.3
   m_ForceAppPointDistance: 0
@@ -1277,7 +1278,7 @@ MonoBehaviour:
   _breakForce: 3000
   _maxSteerAngle: 30
   _minTimeBetweenSwerve: 2
-  _maxTimeBetweenSwerve: 4
+  _maxTimeBetweenSwerve: 6
   _drunkSteerEffect: 0
   frontLWheelCollider: {fileID: 588967977}
   frontRWheelCollider: {fileID: 1804846059}
